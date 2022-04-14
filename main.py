@@ -4,7 +4,7 @@ import telebot
 import os
 
 token = os.getenv("token")
-sudo = int(os.getenv("sudi"))
+sudo = int(os.getenv("sudo"))
 
 bot = telebot.TeleBot(token)
 bot.remove_webhook()
