@@ -10,20 +10,8 @@
     ],
     "repository": "https://github.com/taher-1/mus",
     "env": {
-        "SESSION": {
-            "description": "هنا ضع كود البايروكرام",
-            "required": true
-        },
-        "API_ID": {
-            "description": "هنا ضع الايبب ايدي",
-            "required": true
-        },
-        "HNDLR": {
-            "description": "العلامه التي تضعها قبل اسم الامر مثل ( $ • -) تستطيع تغييرها ",
-            "required": false,
-            "value": "!"
-        },
-        "API_HASH": {
+        
+        "token": {
             "description": "هنا ضع الايبي هاش",
             "required": true
         },
