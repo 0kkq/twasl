@@ -12,7 +12,7 @@
     "env": {
         
         "token": {
-            "description": "هنا ضع الايبي هاش",
+            "description": "حط توكن بوتك",
             "required": true
         },
         "SUDO_USERS": {
