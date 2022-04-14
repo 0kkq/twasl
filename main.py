@@ -2,11 +2,12 @@ import requests
 from telebot import types
 import telebot
 import os
-token = str(os.getenv("TOKEN_BOT"))
-sudo = str(os.getenv("SUDO_USERS"))
+
+token = os.getenv("token")
+sudo = os.getenv("sudo")
 
 bot = telebot.TeleBot(token)
-
+bot.remove_webhook()
 
 def ex_id(id):
     result = False
