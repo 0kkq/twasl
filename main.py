@@ -3,7 +3,7 @@ from telebot import types
 import telebot
 import os
 token =int(os.getenv("TOKEN_BOT"))
-sudo = SUDO_USERS = list(map(int, os.getenv("SUDO_USERS").split()))
+sudo = list(map(int, os.getenv("SUDO_USERS").split()))
 
 bot = telebot.TeleBot(token)
 
