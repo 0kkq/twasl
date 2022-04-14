@@ -2,8 +2,8 @@ import requests
 from telebot import types
 import telebot
 import os
-token =int(os.getenv("TOKEN_BOT"))
-sudo = list(map(int, os.getenv("SUDO_USERS").split()))
+token = str(os.getenv("TOKEN_BOT"))
+sudo = str(os.getenv("SUDO_USERS"))
 
 bot = telebot.TeleBot(token)
 
